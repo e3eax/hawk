@@ -1,7 +1,7 @@
 # Funcat
 
-Funcat is a functional programming library for C++ that focuses on enabling curried functions and providing an expressive set of tools for working with collections, strings, numbers, and custom data types.
-***
+Funcat is a functional programming library for C++ that focuses on enabling curried functions and providing an expressive set of tools for working with collections, strings, numbers, and custom data types.  
+
 Why Funcat? Because functions are purr-fectly amazing, and we all know cats rule the internet (and our hearts)!
 
 ## Features
