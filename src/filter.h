@@ -3,6 +3,7 @@
 #include <functional>
 #include <vector>
 
+namespace hawk {
 /*
  * @brief Template function to apply a filtering operation to a vector of
  * objects.
@@ -30,3 +31,4 @@ std::vector<T*> filter(std::vector<T*>& vec, F fn) {
 
   return vec_filtered;
 }
+}  // namespace hawk

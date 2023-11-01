@@ -3,6 +3,7 @@
 #include <functional>
 #include <vector>
 
+namespace hawk {
 /**
  * @brief Template function to apply a mapping operation to a vector of pointers
  * to objects.
@@ -39,3 +40,5 @@ auto map(std::vector<T*>& vec, F&& fn) -> std::vector<decltype(fn(vec[0]))> {
 
   return vec_mapped;
 }
+
+}  // namespace hawk

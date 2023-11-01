@@ -4,6 +4,8 @@
 #include <cstdlib>
 #include <vector>
 
+namespace hawk {
+
 template <typename T>
 void quicksort(std::vector<T>& v) {
   if (v.size() <= 1) return;
@@ -46,3 +48,5 @@ int partition(std::vector<T>& v, int s, int e) {
 
   return i;
 }
+
+}  // namespace hawk

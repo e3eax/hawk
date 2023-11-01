@@ -2,6 +2,8 @@
 
 #include <vector>
 
+namespace hawk {
+
 template <typename T>
 void merge_sort(std::vector<T>& v) {
   if (v.size() <= 1) return;
@@ -47,3 +49,4 @@ void merge(std::vector<T>& v, std::vector<T>& tmp, int l, int m, int r) {
 
   std::copy(tmp.begin() + l, tmp.begin() + r + 1, v.begin() + l);
 }
+}  // namespace hawk
