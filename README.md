@@ -1,4 +1,4 @@
-### Hawk - Functional C++ Library
+# Hawk - Functional C++ Library
 Hawk is a functional programming library for C++ that emphasizes ease of use and productivity by offering a wide range of tools for working with collections, strings, numbers, and custom data types. It also supports curried functions for enhanced composability.
 
 Why Hawk? Because it allows you to swoop down and handle your data with precision, making your code as sharp and efficient as a hawk's talons!
